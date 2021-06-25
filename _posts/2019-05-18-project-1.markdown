@@ -10,13 +10,23 @@ alt: image-alt
 project-date: May 2019
 client: McGill University
 category: Graph Analytics
-description: This project deals with the Social Media sentiments related to the cancellation of Airpower
+description: This project deals with the Social Media sentiments related to the cancellation of Airpower 
+[Problem Statement](# Problem Statement)
 
 ---
 
-## Social-Media-Analysis
+## Quarterly Results {.tabset}
 
-## Problem Statement 
+### By Product
+
+(tab content)
+
+### By Region
+
+(tab content)
+
+## Social-Media-Analysis
+# Problem Statement 
 How did Apple handle a negative event and crisis (Here the cancellation of Airpower on 29th March, 2019), and also try to analyse the sentiments with respect to locations. 
 
 
