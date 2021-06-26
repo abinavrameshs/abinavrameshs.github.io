@@ -20,16 +20,16 @@ To gather comments on forums to find out which brands of cars are similar to eac
 
 This project consists of several parts :
 
-<u>*Web scraping*</u> : 
+<u><b>Web scraping</b></u> : 
 A Web crawler/scraper was developed using Selenium to fetch messages posted in Edmunds.com discussion forums URL that was scraped :[edmunds.com](https://forums.edmunds.com/discussion/7526/general/x/midsize-sedans-2-0) 
 The code for web scraping is included as one of the code snippets in the repository.
 
-<u>*Plotting MDS map*</u> : 
+<u><b>Plotting MDS map</b></u> : 
 The association among different car brands were calculated `using a metric called Lift` and an MDS plot was generated using libraries in python. For more details please view the code snippet attached in the Github repository.
 For more details on MDS plots, please visit the [MDS Wiki](https://en.wikipedia.org/wiki/Multidimensional_scaling)
 For more information on Lift please visit [Details about Lift](https://en.wikipedia.org/wiki/Lift_(data_mining))
 
-</u>*Recommendations*</u> : 
+</u><b>Recommendations</b></u> : 
 On analysing different correlations among brands, several recommendations were provided to the top management. Please view the document attached in the Github project for more details.
 
 Please refer to the github link to know more about the project
