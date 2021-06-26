@@ -1,27 +1,30 @@
 ---
-title: Analysis of Marijuana Legalisation in Canada
-subtitle: Natural Language Processing
+title: Legalisation of Marijuana in Canada
+subtitle: Natural Language Processing, Web Scraping, Sentiment Analysis
 image: assets/img/portfolio/marijuana_legalization.jpg
 alt: Analysis of Marijuana Legalisation in Canada
 
 caption:
-  title: Analysis of Marijuana Legalisation in Canada
-  subtitle: Natural Language Processing
+  title: Legalisation of Marijuana in Canada
+  subtitle: Natural Language Processing, Web Scraping, Sentiment Analysis
   thumbnail: assets/img/portfolio/marijuana_legalization.jpg
 ---
-# Analysis of Marijuana Legalisation in Canada
 
-The optimal way to legalize Controversial Policies across Canada
+## Objective
 
-## High level steps followed
+Analysis of tweets related to the legalisation of marijuana in Canada. This projects analyses the sentiments across various provinces and also provides recommendations as to how the process of legalization could have been carried out in a better way and the optimal way to legalize controversial policies across Canada
 
-1. Use TwitterScraper API to scrape tweets
-2. Perform webscraping to obtain the number of followers for each user
-3. Text pre-processing
-4. Data Analysis :
-    - Unweighted sentiment analysis
-    - Weighted sentiment analysis
-5. Recommendations
+## Methodology
+
+<u>*1*</u>. Use TwitterScraper API to scrape tweets
+
+<u>*2*</u>. Perform webscraping to obtain the number of followers for each user
+
+<u>*3*</u>. Text pre-processing
+
+<u>*4*</u>. Data Analysis consisting of Unweighted sentiment analysis (without considering the number of followers in the province) and Weighted sentiment analysis (Taking into consideration the number of followers in the province)
+
+<u>*5*</u>. Recommendations
 
 For more information please visit the Github link : 
 
@@ -29,7 +32,6 @@ For more information please visit the Github link :
 
 
 {:.list-inline}
-- Date: July 2019
-- Category: Natural Language Processing, Sentiment Analysis
-- Tools: Python packages TwitterScraper, Selenium, Vader, Spacy, nltk
+- Category: Natural Language Processing, Web Scraping, Sentiment Analysis
+- Tools: TwitterScraper, Selenium, Vader, Spacy, nltk
 

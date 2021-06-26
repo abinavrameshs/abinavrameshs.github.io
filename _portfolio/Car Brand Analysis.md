@@ -1,26 +1,36 @@
 ---
 caption: #what displays in the portfolio grid:
   title: Car Brand Analysis
-  subtitle: Web Scraping and Car Brand Analysis
+  subtitle: Web Scraping, Data mining, Text Analysis
   thumbnail: assets/img/portfolio/car-brands.jpg
   
 #what displays when the item is clicked:
 title: Car Brand Analysis
-subtitle: Web Scraping and Car Brand Analysis
+subtitle: Web Scraping, Data mining, Text Analysis
 image: assets/img/portfolio/car-brands.jpg #main image, can be a link or a file in assets/img/portfolio
-alt: Web Scraping and Car Brand Analysis
+alt: Car Brand Analysis
 
 ---
 
+## Objective
+
+To gather comments on forums to find out which brands of cars are similar to each other in terms of attributes such as equipment, aesthetics, performance, cost and quality and to provide recommendations based on the analysis.
+
+## Methodology
+
 This project consists of several parts :
 
-1. Web scraping : A Web crawler/scraper was developed using Selenium to fetch messages posted in Edmunds.com discussion forums URL that was scraped : https://forums.edmunds.com/discussion/7526/general/x/midsize-sedans-2-0
+<u>*Web scraping*</u> : 
+A Web crawler/scraper was developed using Selenium to fetch messages posted in Edmunds.com discussion forums URL that was scraped : https://forums.edmunds.com/discussion/7526/general/x/midsize-sedans-2-0
 The code for web scraping is included as one of the code snippets in the repository.
 
-2. Plotting MDS map : The association among different car brands were calculated and an MDS plot was generated using libraries in python. For more details please view the code snippet attached in the repository.
-For more details on MDS plots, please visit the wikipedia page : https://en.wikipedia.org/wiki/Multidimensional_scaling
+<u>*Plotting MDS map*</u> : 
+The association among different car brands were calculated `using a metric called Lift` and an MDS plot was generated using libraries in python. For more details please view the code snippet attached in the Github repository.
+For more details on MDS plots, please visit the [MDS Wiki](https://en.wikipedia.org/wiki/Multidimensional_scaling)
+For more information on Lift please visit [Details about Lift](https://en.wikipedia.org/wiki/Lift_(data_mining))
 
-3. Recommendations to top management : On analysing different correlations among brands, several recommendations were provided to the top management. Please view the document attached for more details.
+</u>*Recommendations*</u> : 
+On analysing different correlations among brands, several recommendations were provided to the top management. Please view the document attached in the Github project for more details.
 
 Please refer to the github link to know more about the project
 
@@ -29,6 +39,6 @@ Please refer to the github link to know more about the project
 
 
 {:.list-inline} 
-- Category: Social Media Analytics,Graphs, Networks, Analytics
-- Tools: networkx, Gephi
+- Category: Web Scraping, Data mining, Text Analysis, Lift ratios, MDS Plots, Presentation
+- Tools: Python packages like BeautifulSoup,selenium,sklearn, nltk
 

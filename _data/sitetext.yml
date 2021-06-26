@@ -15,7 +15,7 @@ services:
         icon: fas fa-dice-five  
       - title: "R"
         icon: fas fa-dice-four  
-      - title: "Hive, Impala"
+      - title: "Hive, Impala, Presto"
         icon: fas fa-dice-four   
       - title: "MicroStrategy, Tableau, Power BI"
         icon: fas fa-dice-four  

@@ -1,19 +1,20 @@
 ---
 caption: #what displays in the portfolio grid:
-  title: NLP - Salary Prediction
-  subtitle: Salary Prediction
+  title: Salary Prediction from job descriptions
+  subtitle: Text Classification
   thumbnail: assets/img/portfolio/salary_prediction.jpg
   
 #what displays when the item is clicked:
-title: NLP - Salary Prediction
-subtitle: Salary Prediction
+title: Salary Prediction from job descriptions
+subtitle: Text Classification
 image: assets/img/portfolio/salary_prediction.jpg #main image, can be a link or a file in assets/img/portfolio
-alt: NLP - Salary Prediction
+alt: Text Classification
 
 ---
 
+## Objective 
 
-## Prediction of salary using text analysis
+The objective is to develop a classification model to predict salary from job description.The idea here is to test the predictive power of text and compare it with that of numeric data
 
 ## Data Description
 
@@ -22,8 +23,6 @@ http://www.kaggle.com/c/job-salary-prediction
 
 Use training dataset train_rev1
 
-## Project description
-Predict salary from job description; the idea here is to test the predictive power of text and compare it with that of numeric data
 
 ## Methodology
 Salary information was bucketized based on percentiles (high (75th percentile and above) or low (below 75th percentile) salary from the text contained in the job descriptions)
