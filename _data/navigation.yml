@@ -1,0 +1,18 @@
+nav:
+  - title: "Skills"
+    section: services
+
+  - title: "Projects"
+    section: portfolio
+    
+  - title: "About"
+    section: timeline
+
+  - title: "Volunteering"
+    section: team
+
+  - title: "Contact"
+    section: contact
+
+  - title: "Resume"
+    url: https://github.com/abinavrameshs/abinav_resume/blob/main/Abinav_Ramesh_Resume.pdf

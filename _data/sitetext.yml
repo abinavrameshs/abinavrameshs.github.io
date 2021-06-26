@@ -1,0 +1,152 @@
+header:
+    title: Welcome To the Data Science Portfolio of Abinav Ramesh!!
+    text: It's Nice To Meet You
+    button: Click here to know about my projects
+    buttonlink: "#portfolio"
+
+services:
+    title: "Skills"
+    text: "Top Skills - Rated out of 5"
+    section: services
+    list:
+      - title: "Python" #<i class="fa-duotone fa-square-9"></i>
+        icon: fas fa-dice-five #find more at https://fontawesome.com/icons
+      - title: "SQL"
+        icon: fas fa-dice-five  
+      - title: "R"
+        icon: fas fa-dice-four  
+      - title: "Hive, Impala"
+        icon: fas fa-dice-four   
+      - title: "MicroStrategy, Tableau, Power BI"
+        icon: fas fa-dice-four  
+      - title: "Machine Learning, Deep Learning"
+        icon: fas fa-dice-four       
+      - title: "Spark"
+        icon: fas fa-dice-four    
+      - title: "Hadoop"
+        icon: fas fa-dice-three     
+      - title: "Scala"
+        icon: fas fa-dice-three           
+      #- title: "[Markdown](https://en.wikipedia.org/wiki/Markdown)"
+      #  icon: fab fa-markdown
+
+portfolio:
+    title: "Projects"
+    text: "Here is an overview of my Data Science Projects"
+    section: portfolio
+    closebutton: "Close Project"
+    
+
+timeline:
+    title: "About" 
+    image: assets/img/timeline/bell_200_200.jpg
+    text: "Hi, I am a Data Science professional with almost 4 years of experience in the field of Analytics and Data Science. I consider myself as a problem solver, who is passionate to help people and organizations with my data analytics and Machine learning skills and improve their bottom line. I am also a fun and enthusiastic person who is willing to explore and constantly learn. I am open to any kind of Data-related opportunity, where I can utilize my Analytics-related expertise to help the world become a better place. Please feel free to keep in touch with me at <a href=\"mailto:abinav.sundararaman@mail.mcgill.ca?subject=Connection request&body=Hello Abinav,%0DI hope you are doing good. Nice to e-meet you. Glad we can make a connection! %0DRegards\">abinav.sundararaman@mail.mcgill.ca</a>"
+    section: timeline
+    # left is the default
+    #start_align: "left"
+    events:
+      - title: "National Institute of Technology Karnataka"
+        year: "JUL 2012 - JUL 2016"
+        desc: "Bachelors of Technology in Electronics and Communication Engineering"
+        image: assets/img/timeline/NITK_200_200.jpg
+        alt: Bachelors Degree
+      - title: "Deloitte Consulting"
+        year: "AUG 2016 - JUL 2018"
+        desc: "Worked as a Business Technology Analyst (SAP Analytics) for 2 years on SAP HANA and SAP Business Objects. Served as a System Integration Tester for a highly renowned Healthcare insurance provider."
+        image: assets/img/timeline/deloitte_200_200.jpg
+        alt: First place of work
+      - title: "McGill University"
+        year: "AUG 2018 - JUL 2019"
+        desc: "Masters of Management in Analytics (MMA) from McGill University"
+        image: assets/img/timeline/mcgill_200_200.jpg
+        alt: Master's degree
+      - title: "Bell Mobility"
+        year: "JUL 2019 - PRESENT"
+        desc: "Data Science Developer at Bell Mobility"
+        image: assets/img/timeline/bell_200_200.jpg
+        alt: Bell Mobility
+        # you can enforce the aligment
+        align: right
+    end: "Stay tuned <br> for more <br> Story!"
+
+about:
+    title: "About Us"
+    text: "our story"
+    section: about
+
+#clients:
+#    section: clients
+#    max-height: 100px
+#    horizontal-scrolling: "" #"yes/no"
+#    list:
+#      - title: "envato"
+#        url: https://github.com/raviriley/agency-jekyll-theme
+#        logo: assets/img/clients/envato.jpg
+#      - title: "designmodo"
+#        url: https://github.com/raviriley/agency-jekyll-theme
+#        logo: assets/img/clients/designmodo.jpg
+#      - title: "themeforest"
+#        url: https://github.com/raviriley/agency-jekyll-theme
+#        logo: assets/img/clients/themeforest.jpg
+#      - title: "Creative Market"
+#        url: https://github.com/raviriley/agency-jekyll-theme
+#        logo: assets/img/clients/creative-market.jpg
+    
+team:
+    title: "Volunteering"
+    text: "Serving as a Project Manager(Data Science) in The Bigger Data enabling non-profit organizations to leverage the power of their data. Worked with International organization AIESEC to improve their business model through Analytics "
+    #subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, #quos non quis ad erspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
+    section: team
+    people:
+      #- name: "The Bigger Data"
+      #  #role: "Lead Designer"
+      #  image: assets/img/team/TBD_500_500.jpg
+      #  social:
+      #    - url: https://twitter.com
+      #      icon: fab fa-twitter
+      #    - url: https://facebook.com
+      #      icon: fab fa-facebook-f
+      #    - url: https://www.linkedin.com/company/thebiggerdata/
+      #      icon: fab fa-linkedin-in
+      - name: "The Bigger Data"
+        #role: "Lead Marketer"
+        image: assets/img/team/TBD_500_500.jpg
+        social:
+          #- url: https://twitter.com
+          #  icon: fab fa-twitter
+          #- url: https://facebook.com
+          #  icon: fab fa-facebook-f
+          - url: https://www.linkedin.com/company/thebiggerdata/
+            icon: fab fa-linkedin-in
+      #- name: "Diana Perterson"
+      #  role: "Lead Developer"
+      #  image: assets/img/team/500x500.jpg
+      #  social:
+      #    - url: https://twitter.com
+      #      icon: fab fa-twitter
+      #    - url: https://facebook.com
+      #      icon: fab fa-facebook-f
+      #    - url: https://linkedin.com
+      #      icon: fab fa-linkedin-in
+         
+contact:
+    title: "Contact Me"
+    text: "Thank you for visiting my website!<br> Please keep in touch by connecting with me on Linkedin/Facebook/Twitter/Instagram accounts below!"
+    section: contact
+    
+footer:
+    legal: "Privacy Policy"
+    social:
+      - url: https://twitter.com/Abinavramesh2
+        icon: "fab fa-twitter"  
+      - url: https://www.facebook.com/abinav.ramesh.5/
+        icon: "fab fa-facebook-f"
+      - url: https://www.linkedin.com/in/abinav-ramesh-sundararaman/
+        icon: "fab fa-linkedin-in"
+      - url: https://github.com/abinavrameshs
+        icon: "fab fa-github"
+      - url: https://www.instagram.com/abinavrameshs/
+        icon: "fab fa-instagram"
+
+
+# {{ site.data.sitetext.ex.ex | markdownify | default: example }}

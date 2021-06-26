@@ -1,97 +1,17 @@
-<!-- About Section -->
-    <section id="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">About</h2>
-                    <h3 class="section-subheading text-muted">
-                        <p>
-                        Hi, I am a Data Science professional with almost 4 years of experience in the field of Analytics and Data Science.I consider myself as a problem solver, who is passionate to help people and organizations with my data analytics and Machine learning skills and improve their bottom line.
-                        </p>
-                        <p>
-                            I am also a fun and enthusiastic person who is willing to explore and constantly learning. I am open to any kind of Data-related opportunity, where I can utilize my Analytics-related expertise to help the world become a better place.
-                        </p>
-                        
-                        <p>
-                            Please feel free to keep in touch with me at <a href="mailto:abinav.sundararaman@mail.mcgill.ca">abinav.sundararaman@mail.mcgill.ca</a> 
-                        </p>
-                        
-                    </h3>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-12">
-                    <ul class="timeline">
-                        <li>
-                            <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/about/1.jpg" alt="">
-                            </div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h4>Jul 2012 - Jul 2016</h4>
-                                    <h4 class="subheading">National Institute of Technology Karnataka</h4>
-                                </div>
-                                <div class="timeline-body">
-                                    <p class="text-muted">
-                                        Bachelors of Technology in Electronics and Communication Engineering
-                                    </p>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="timeline-inverted">
-                            <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/about/2.jpg" alt="">
-                            </div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h4>Aug 2016 - Jul 2018</h4>
-                                    <h4 class="subheading">Deloitte Consulting</h4>
-                        
-                                </div>
-                                <div class="timeline-body">
-                                    <p class="text-muted">
-                                       Worked as a Business Technology Analyst (SAP Analytics) for 2 years on SAP HANA and SAP Business Objects. Served as a System Integration Tester for a highly renowned Healthcare insurance provider.
-                                    </p>
-                                </div>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/about/3.jpg" alt="">
-                            </div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h4>Aug 2018 - Jul 2019</h4>
-                                    <h4 class="subheading">McGill University</h4>
-                                </div>
-                                <div class="timeline-body">
-                                    <p class="text-muted">Masters of Management in Analytics (MMA) from McGill University</p>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="timeline-inverted">
-                            <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/about/4.jpg" alt="">
-                            </div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h4>Jul 2019 - Present</h4>
-                                    <h4 class="subheading">Bell Mobility</h4>
-                                </div>
-                                <div class="timeline-body">
-                                    <p class="text-muted">Data Science Developer at Bell Mobility</p>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="timeline-inverted">
-                            <div class="timeline-image">
-                                <h4>Story
-                                    <br>So Far
-                                    <br>Stay Tuned!</h4>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-            </div>
+<!-- About -->
+  <section class="page-section" id="{{ site.data.sitetext.about.section | default: "about" }}">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2 class="section-heading text-uppercase">{{ site.data.sitetext.about.title | default: "About Us" }}</h2>
+          <h3 class="section-subheading text-muted">{{ site.data.sitetext.about.text | default: "" }}</h3>
         </div>
-    </section>
+      </div>
+	  <div class="row">
+		<div class="col-lg-8 mx-auto text-center">
+		  <div class="large text-muted">{{ site.data.sitetext.about.text | markdownify }}</div>
+		</div>
+	  </div>
+    </div>
+  </section>
+<!-- End About -->
