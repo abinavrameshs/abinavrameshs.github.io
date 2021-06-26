@@ -21,7 +21,7 @@ To gather comments on forums to find out which brands of cars are similar to eac
 This project consists of several parts :
 
 <u>*Web scraping*</u> : 
-A Web crawler/scraper was developed using Selenium to fetch messages posted in Edmunds.com discussion forums URL that was scraped : https://forums.edmunds.com/discussion/7526/general/x/midsize-sedans-2-0
+A Web crawler/scraper was developed using Selenium to fetch messages posted in Edmunds.com discussion forums URL that was scraped :[edmunds.com](https://forums.edmunds.com/discussion/7526/general/x/midsize-sedans-2-0) 
 The code for web scraping is included as one of the code snippets in the repository.
 
 <u>*Plotting MDS map*</u> : 

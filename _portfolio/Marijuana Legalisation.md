@@ -16,15 +16,15 @@ Analysis of tweets related to the legalisation of marijuana in Canada. This proj
 
 ## Methodology
 
-<u>*1*</u>. Use TwitterScraper API to scrape tweets
+<u><b>1</b></u>. Use TwitterScraper API to scrape tweets
 
-<u>*2*</u>. Perform webscraping to obtain the number of followers for each user
+<u><b>2</b></u>. Perform webscraping to obtain the number of followers for each user
 
-<u>*3*</u>. Text pre-processing
+<u><b>3</b></u>. Text pre-processing
 
-<u>*4*</u>. Data Analysis consisting of Unweighted sentiment analysis (without considering the number of followers in the province) and Weighted sentiment analysis (Taking into consideration the number of followers in the province)
+<u><b>4</b></u>. Data Analysis consisting of Unweighted sentiment analysis (without considering the number of followers in the province) and Weighted sentiment analysis (Taking into consideration the number of followers in the province)
 
-<u>*5*</u>. Recommendations
+<u><b>5</b></u>. Recommendations
 
 For more information please visit the Github link : 
 
