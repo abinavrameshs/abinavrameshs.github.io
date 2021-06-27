@@ -116,7 +116,7 @@ team:
             icon: fas fa-laptop-code
       - name: "AWS Certified Cloud Practitioner"
         #role: "Lead Marketer"
-        image: assets/img/team/AWS-CloudPractitioner_500_500.jpg
+        image: assets/img/team/AWS_CCP_500_500.jpg
         social:
           #- url: https://twitter.com
           #  icon: fab fa-twitter
