@@ -26,11 +26,8 @@ Please use the following link to download the data : [Job descriptions data set]
 Salary information was bucketized based on percentiles (high (75th percentile and above) or low (below 75th percentile) salary from the text contained in the job descriptions). The job descriptions were vectorized using TF-IDF.
 
 There are 3 classification models that were built for predicting the range of salaries : 
-<p><u>1</u>. Using only Text predictors : Two kinds of Naive Bayes models were built for this purpose 
- </li>Bernoulli Classifier</li>
- </li> Multinomial Text Classifier</li>
-</p>
-  
+<u>1</u>. Using only Text predictors : Two kinds of Naive Bayes models were built for this purpose , Bernoulli Classifier and Multinomial Text Classifier
+
 <u>2</u>. Only using numerical predictors
 
 <u>3</u>. Hybrid model (using both numerical and text predictors)
