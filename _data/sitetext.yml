@@ -113,7 +113,7 @@ team:
           #- url: https://facebook.com
           #  icon: fab fa-facebook-f
           - url: https://www.mcgill.ca/channels/channels/news/meet-analytics-dream-team-297550
-            icon: fab fa-laptop-code
+            icon: fas fa-laptop-code
       - name: "AWS Certified Cloud Practitioner"
         #role: "Lead Marketer"
         image: assets/img/team/AWS-CloudPractitioner_500_500.jpg
@@ -123,7 +123,7 @@ team:
           #- url: https://facebook.com
           #  icon: fab fa-facebook-f
           - url: https://www.youracclaim.com/badges/5a52e040-664e-4a5d-a994-1a4d53de4555?source=linked_in_profile
-            icon: fab fa-certificate
+            icon: fa fa-certificate
       #- name: "Diana Perterson"
       #  role: "Lead Developer"
       #  image: assets/img/team/500x500.jpg
