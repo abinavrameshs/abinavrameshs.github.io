@@ -62,9 +62,15 @@ timeline:
         alt: Master's degree
       - title: "Bell Mobility"
         year: "JUL 2019 - PRESENT"
-        desc: "Data Science Developer at Bell Mobility"
+        desc: "Data Science Developer at Bell Mobility.Involved in critical AI/ML projects like Modem upgrade issue detection, Modem Self-healing, Call prediction and Outage detection"
         image: assets/img/timeline/bell_200_200.jpg
         alt: Bell Mobility
+        align : right
+      - title: "The Bigger Data"
+        year: "OCT 2020 - PRESENT"
+        desc: "Serving as a Data Science Project Manager in [The Bigger Data](https://www.linkedin.com/company/thebiggerdata/), enabling non-profit organizations to leverage the power of their data. Worked with International organization AIESEC to improve their business model through Analytics "
+        image: assets/img/timeline/TBD_200_200.jpg
+        alt: The Bigger Data
         # you can enforce the aligment
         align: right
     end: "Stay tuned <br> for more <br> Story!"
@@ -93,31 +99,31 @@ about:
 #        logo: assets/img/clients/creative-market.jpg
     
 team:
-    title: "Volunteering"
-    text: "Serving as a Project Manager(Data Science) in The Bigger Data enabling non-profit organizations to leverage the power of their data. Worked with International organization AIESEC to improve their business model through Analytics "
+    title: "Certifications and Accomplishments"
+    #text: "Serving as a Project Manager(Data Science) in The Bigger Data enabling non-profit organizations to leverage the power of their data. Worked with International organization AIESEC to improve their business model through Analytics "
     #subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, #quos non quis ad erspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
     section: team
     people:
-      #- name: "The Bigger Data"
-      #  #role: "Lead Designer"
-      #  image: assets/img/team/TBD_500_500.jpg
-      #  social:
-      #    - url: https://twitter.com
-      #      icon: fab fa-twitter
-      #    - url: https://facebook.com
-      #      icon: fab fa-facebook-f
-      #    - url: https://www.linkedin.com/company/thebiggerdata/
-      #      icon: fab fa-linkedin-in
-      - name: "The Bigger Data"
-        #role: "Lead Marketer"
-        image: assets/img/team/TBD_500_500.jpg
+      - name: "Ericsson Hackathon Montreal"
+        role: "First place in the Ericsson Data Science Hackathon!"
+        image: assets/img/team/ericsson_hackathon_500_500.jpg
         social:
           #- url: https://twitter.com
           #  icon: fab fa-twitter
           #- url: https://facebook.com
           #  icon: fab fa-facebook-f
-          - url: https://www.linkedin.com/company/thebiggerdata/
-            icon: fab fa-linkedin-in
+          - url: https://www.mcgill.ca/channels/channels/news/meet-analytics-dream-team-297550
+            icon: fab fa-laptop-code
+      - name: "AWS Certified Cloud Practitioner"
+        #role: "Lead Marketer"
+        image: assets/img/team/AWS-CloudPractitioner_500_500.jpg
+        social:
+          #- url: https://twitter.com
+          #  icon: fab fa-twitter
+          #- url: https://facebook.com
+          #  icon: fab fa-facebook-f
+          - url: https://www.youracclaim.com/badges/5a52e040-664e-4a5d-a994-1a4d53de4555?source=linked_in_profile
+            icon: fab fa-certificate
       #- name: "Diana Perterson"
       #  role: "Lead Developer"
       #  image: assets/img/team/500x500.jpg
