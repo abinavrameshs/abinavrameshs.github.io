@@ -131,7 +131,7 @@ team:
          
 contact:
     title: "Contact Me"
-    text: "Thank you for visiting my website!<br> Please keep in touch by connecting with me on Linkedin/Facebook/Twitter/Instagram accounts below!"
+    #text: "Thank you for visiting my website!<br> Please keep in touch by connecting with me on Linkedin/Facebook/Twitter/Instagram accounts below!"
     section: contact
     
 footer:
