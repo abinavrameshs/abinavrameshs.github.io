@@ -29,7 +29,7 @@ The association among different car brands were calculated `using a metric calle
 For more details on MDS plots, please visit the [MDS Wiki](https://en.wikipedia.org/wiki/Multidimensional_scaling)
 For more information on Lift please visit [Details about Lift](https://en.wikipedia.org/wiki/Lift_(data_mining))
 
-</u><b>Recommendations</b></u> : 
+<u><b>Recommendations</b></u> : 
 On analysing different correlations among brands, several recommendations were provided to the top management. Please view the document attached in the Github project for more details.
 
 Please refer to the github link to know more about the project

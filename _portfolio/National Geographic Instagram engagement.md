@@ -20,7 +20,7 @@ This project is aimed at increasing engagement on National Geographic’s Instag
 
 <p><u>2</u>.	Image labels for 1500 pictures were collected using Google Cloud vision API.</p>
 
-<u>3</u>.	Create a metric (score) for engagement by using a weighted sum of #_likes and #_comments. Be sure to normalize #_likes and #_comments. Now create an `engagement score = .4*#_likes (normalized) + .6*#_comments (normalized)`.
+<u>3</u>.	Create a metric (score) for engagement by using a weighted sum of #_likes and #_comments. Be sure to normalize #_likes and #_comments. Now create an `engagement score = 0.4*#_likes (normalized) + 0.6*#_comments (normalized)`.
 
 <p><u>4</u>.	Build 3 different models to predict engagement with : 
 <li>Image labels (text) as predictors.</li>
@@ -33,6 +33,7 @@ This project is aimed at increasing engagement on National Geographic’s Instag
 
 
 Please refer to the code and document attached in the repository for more details
+
 [Github](https://github.com/abinavrameshs/Social-Network-Analysis-to-increase-engagement)
 
 {:.list-inline}
