@@ -104,7 +104,7 @@ team:
     #subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, #quos non quis ad erspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
     section: team
     people:
-      - name: "[Ericsson Hackathon Montreal](https://www.mcgill.ca/channels/channels/news/meet-analytics-dream-team-297550)"
+      - name: "<a href=\"https://www.mcgill.ca/channels/channels/news/meet-analytics-dream-team-297550\">Ericsson Hackathon Montreal</a>"
         role: "First place in the Ericsson Data Science Hackathon!"
         image: assets/img/team/ericsson_hackathon_500_500.jpg
         social:
