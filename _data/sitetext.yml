@@ -126,14 +126,14 @@ team:
             icon: fa fa-certificate
       - name: "<a href=\"https://www.mcgill.ca/desautels/programs/mma/careers-industry-partners/industry-partners/mma-advisory-ambassadors\">McGill MMA Ambassador</a>"
           #role: "Lead Marketer"
-          image: assets/img/team/mma.jpg
-          social:
+        image: assets/img/team/mma.jpg
+        social:
             #- url: https://twitter.com
             #  icon: fab fa-twitter
             #- url: https://facebook.com
             #  icon: fab fa-facebook-f
-            - url: https://www.mcgill.ca/desautels/programs/mma/careers-industry-partners/industry-partners/mma-advisory-ambassadors
-              icon: fa fa-certificate
+          - url: https://www.mcgill.ca/desautels/programs/mma/careers-industry-partners/industry-partners/mma-advisory-ambassadors
+            icon: fa fa-certificate
 
       #- name: "Diana Perterson"
       #  role: "Lead Developer"
