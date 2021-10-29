@@ -71,7 +71,7 @@ timeline:
         desc: "Data Scientist in Enterprise Data and Analytics team"
         image: assets/img/timeline/TD.png
         alt: TD Bank Group
-        align: right
+        align: left
       - title: "The Bigger Data"
         year: "OCT 2020 - PRESENT"
         desc: "Serving as a Data Science Project Manager in [The Bigger Data](https://www.linkedin.com/company/thebiggerdata/), enabling non-profit organizations to leverage the power of their data. Worked with International organization AIESEC to improve their business model through Analytics "
