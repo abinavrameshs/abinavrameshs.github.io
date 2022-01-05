@@ -16,14 +16,14 @@ Hooks are programs you can place in a hooks directory to trigger actions at cert
 
 The types of GIT hooks implemented in this project are :
 
-## pre-commit
+### pre-commit
 1. We can auto-format python code using Black formatter
 
-## commit-msg
+### commit-msg
 1. Check if commit message follows standard practises
 2. We can provide meaningful instructions on how to prepare a commit message.
 
-## pre-rebase
+### pre-rebase
 1. can be used to abort rebase command on any commits
 
 Please refer to the github link to know more about the project
