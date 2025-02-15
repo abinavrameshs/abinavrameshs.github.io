@@ -18,7 +18,7 @@ This is the [Agency Bootstrap theme](https://startbootstrap.com/themes/agency/) 
 - contact form functionality powered by [Formspree.io](https://formspree.io)
 - custom pages
 - 404 page
-- legal/Privacy Policy page
+- legal/Privacy Policy page 
 - Google Analytics support
 - Markdown support
 - custom images
