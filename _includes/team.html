@@ -7,11 +7,11 @@
 	  <h3 class="section-subheading text-muted">{{ site.data.sitetext.team.text }}</h3>
 	</div>
   </div>
-  <div class="row">
+  <div class="row justify-content-center">
   {% for person in site.data.sitetext.team.people %}
-	<div class="col-sm-4">
+	<div class="col-md-6 col-lg-3">
 	  <div class="team-member">
-		<img class="mx-auto rounded-circle" src="{{ person.image }}" alt="">
+		<img class="mx-auto rounded-circle" src="{{ person.image }}" alt="{{ person.name | strip_html }}">
 		<h4>{{ person.name }}</h4>
 		<p class="text-muted">{{ person.role }}</p>
 		<ul class="list-inline social-buttons">
@@ -32,6 +32,22 @@
 	  <div class="large text-muted">{{ site.data.sitetext.team.subtext | markdownify }}</div>
 	</div>
   </div>
+  {% if site.data.sitetext.team.additional_certs %}
+  <div class="row">
+	<div class="col-lg-10 mx-auto text-center">
+	  <h4 class="mt-4 mb-3 text-muted text-uppercase">{{ site.data.sitetext.team.additional_title | default: "Additional Certifications" }}</h4>
+	  <ul class="list-inline">
+	  {% for cert in site.data.sitetext.team.additional_certs %}
+		<li class="list-inline-item m-1">
+		  <a href="{{ cert.url }}" class="btn btn-sm cert-pill" target="_blank" rel="noopener">
+			<i class="fa fa-certificate"></i> {{ cert.name }}
+		  </a>
+		</li>
+	  {% endfor %}
+	  </ul>
+	</div>
+  </div>
+  {% endif %}
 </div>
 </section>
 <!-- End Team -->

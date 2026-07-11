@@ -1,4 +1,5 @@
 ---
+order: 14
 caption: #what displays in the portfolio grid:
   title: Network Analysis of Cancellation of Airpower
   subtitle: Social Media Analytics,Graphs,Networks
@@ -44,7 +45,7 @@ The following analyses were performed in this project :
 
 Please refer to the github link to know more about the project
 
-[Github](https://github.com/abinavrameshs/Social-Network-Analysis---Cancellation-of-Airpower)
+[Github](https://github.com/abinavrameshs/Social-Network-Analysis-Cancellation-of-Airpower)
 
 
 

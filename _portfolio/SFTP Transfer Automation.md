@@ -1,4 +1,5 @@
 ---
+order: 12
 caption: #what displays in the portfolio grid:
   title: SFTP Transfer automation
   subtitle: Python automation

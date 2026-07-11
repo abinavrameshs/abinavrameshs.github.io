@@ -10,9 +10,30 @@
   h4 {
     margin-top: 25px;
     margin-bottom: 0;
+    min-height: 2.6em;
     text-transform: none;
   }
   p {
     margin-top: 0;
+    min-height: 2.4em;
+  }
+}
+
+.cert-pill {
+  border: 1.5px solid $gray-900;
+  color: $gray-900;
+  background-color: $white;
+  transition: all ease 0.2s;
+  i {
+    color: darken($primary, 5%);
+  }
+  &:hover,
+  &:focus {
+    background-color: $gray-900;
+    border-color: $gray-900;
+    color: $primary;
+    i {
+      color: $primary;
+    }
   }
 }

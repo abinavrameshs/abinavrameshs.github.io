@@ -1,5 +1,6 @@
 <!-- Portfolio Modals -->
-{% for project in site.portfolio %}
+{% assign sorted_portfolio = site.portfolio | sort: "order" %}
+{% for project in sorted_portfolio %}
   <div class="portfolio-modal modal fade" id="p{{ forloop.index }}" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">

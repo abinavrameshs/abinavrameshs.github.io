@@ -13,12 +13,12 @@
 
 theme: jekyll-agency
 
-url    : "" # the base hostname & protocol for your site, e.g. http://example.com
+url    : "https://abinavrameshs.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "" # the subpath of your site, e.g. /blog
 
 title      : Abinav's Portfolio
-email      : abinav.sundararaman@mail.mcgill.ca #this is also the email contact forms will go to
-description: "This is the personal portfolio of Abinav"
+email      : abinavrameshs@gmail.com #this is also the email contact forms will go to
+description: "Abinav Ramesh — AI Engineer & Applied Machine Learning Scientist specializing in Gen AI, LLMs, RAG and agentic AI systems."
 author     : Abinav Ramesh Sundararaman
 # logo:     #optional, defaults to site title
   # path: assets\img\clients\creative-market.jpg

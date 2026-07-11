@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="450" viewBox="0 0 600 450">
+  <rect width="600" height="450" fill="#212529"/>
+  <rect x="0" y="0" width="600" height="8" fill="#fed136"/>
+  <g stroke="#fed136" stroke-width="6" fill="none">
+    <rect x="215" y="95" width="170" height="170" rx="12"/>
+    <circle cx="300" cy="180" r="45"/>
+  </g>
+  <line x1="205" y1="85" x2="235" y2="85" stroke="#fed136" stroke-width="6"/>
+  <line x1="205" y1="85" x2="205" y2="115" stroke="#fed136" stroke-width="6"/>
+  <line x1="395" y1="85" x2="365" y2="85" stroke="#fed136" stroke-width="6"/>
+  <line x1="395" y1="85" x2="395" y2="115" stroke="#fed136" stroke-width="6"/>
+  <line x1="205" y1="275" x2="235" y2="275" stroke="#fed136" stroke-width="6"/>
+  <line x1="205" y1="275" x2="205" y2="245" stroke="#fed136" stroke-width="6"/>
+  <line x1="395" y1="275" x2="365" y2="275" stroke="#fed136" stroke-width="6"/>
+  <line x1="395" y1="275" x2="395" y2="245" stroke="#fed136" stroke-width="6"/>
+  <text x="300" y="360" font-family="Helvetica, Arial, sans-serif" font-size="30" font-weight="700" fill="#ffffff" text-anchor="middle">Face Detection</text>
+  <text x="300" y="390" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#adb5bd" text-anchor="middle">MATLAB + ZedBoard hardware</text>
+</svg>

@@ -1,4 +1,5 @@
 ---
+order: 8
 title: Implementation of Data trigerred workflow in Apache Oozie
 subtitle: Apache Oozie, Hadoop, Shell, Workflows, Coordinators
 image: assets/img/portfolio/oozie_logo.png

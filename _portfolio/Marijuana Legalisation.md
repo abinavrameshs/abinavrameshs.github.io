@@ -1,4 +1,5 @@
 ---
+order: 10
 title: Legalisation of Marijuana in Canada
 subtitle: Natural Language Processing, Web Scraping, Sentiment Analysis
 image: assets/img/portfolio/marijuana_legalization.jpg
