@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <defs>
+    <linearGradient id="agent-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#15232b"/>
+      <stop offset="1" stop-color="#26343a"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#agent-bg)"/>
+  <rect x="60" y="60" width="680" height="380" rx="14" fill="#101619" stroke="#425157" stroke-width="1.5"/>
+  <rect x="60" y="60" width="680" height="42" rx="14" fill="#1d292e"/>
+  <rect x="60" y="88" width="680" height="14" fill="#1d292e"/>
+  <circle cx="86" cy="81" r="6" fill="#fc6058"/>
+  <circle cx="106" cy="81" r="6" fill="#fec02f"/>
+  <circle cx="126" cy="81" r="6" fill="#28c840"/>
+  <text x="158" y="86" font-family="Menlo, Consolas, monospace" font-size="13" fill="#95a5aa">my-coding-agent</text>
+  <text x="96" y="148" font-family="Helvetica, Arial, sans-serif" font-size="22" font-weight="700" fill="#ffffff">Terminal Coding Agent</text>
+  <text x="96" y="178" font-family="Menlo, Consolas, monospace" font-size="14" fill="#70d6c1">$ uv run agent -p &quot;build it&quot;</text>
+  <text x="96" y="216" font-family="Menlo, Consolas, monospace" font-size="13" fill="#95a5aa">&gt; plan approved</text>
+  <text x="96" y="244" font-family="Menlo, Consolas, monospace" font-size="13" fill="#95a5aa">&gt; reading files...</text>
+  <text x="96" y="272" font-family="Menlo, Consolas, monospace" font-size="13" fill="#95a5aa">&gt; editing workspace...</text>
+  <text x="96" y="300" font-family="Menlo, Consolas, monospace" font-size="13" fill="#70d6c1">&gt; tests passed</text>
+  <rect x="96" y="334" width="644" height="1" fill="#2c3a3f"/>
+  <g font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="700">
+    <rect x="96" y="356" width="88" height="26" rx="13" fill="#203b3b" stroke="#70d6c1"/>
+    <text x="140" y="373" fill="#70d6c1" text-anchor="middle">TOOLS</text>
+    <rect x="194" y="356" width="88" height="26" rx="13" fill="#203b3b" stroke="#70d6c1"/>
+    <text x="238" y="373" fill="#70d6c1" text-anchor="middle">MCP</text>
+    <rect x="292" y="356" width="110" height="26" rx="13" fill="#203b3b" stroke="#70d6c1"/>
+    <text x="347" y="373" fill="#70d6c1" text-anchor="middle">SUBAGENTS</text>
+    <rect x="412" y="356" width="104" height="26" rx="13" fill="#203b3b" stroke="#70d6c1"/>
+    <text x="464" y="373" fill="#70d6c1" text-anchor="middle">MEMORY</text>
+  </g>
+  <text x="96" y="414" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#95a5aa">Python · OpenAI-compatible providers · plugins · session persistence</text>
+</svg>
