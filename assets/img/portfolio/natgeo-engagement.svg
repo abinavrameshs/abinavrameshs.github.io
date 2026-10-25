@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <defs>
+    <linearGradient id="ng-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1a1e22"/>
+      <stop offset="1" stop-color="#23282d"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#ng-bg)"/>
+  <rect x="60" y="60" width="680" height="380" rx="14" fill="#15181b" stroke="#33393f" stroke-width="1.5"/>
+  <rect x="60" y="60" width="680" height="42" rx="14" fill="#20252a"/>
+  <rect x="60" y="88" width="680" height="14" fill="#20252a"/>
+  <circle cx="86" cy="81" r="6" fill="#fc6058"/>
+  <circle cx="106" cy="81" r="6" fill="#fec02f"/>
+  <circle cx="126" cy="81" r="6" fill="#28c840"/>
+  <rect x="150" y="70" width="320" height="22" rx="11" fill="#2c3238"/>
+  <text x="168" y="86" font-family="Menlo, Consolas, monospace" font-size="13" fill="#7d8791">instaloader + Cloud Vision</text>
+  <text x="96" y="146" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#ffffff" font-weight="700">@natgeo engagement model</text>
+  <text x="96" y="172" font-family="Menlo, Consolas, monospace" font-size="13" fill="#95a0aa">logistic regression · high vs low engagement</text>
+  <text x="96" y="206" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#95a0aa">Accuracy</text>
+  <text x="96" y="230" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#d7dbe0">Image labels</text>
+  <rect x="224" y="219" width="180" height="14" rx="7" fill="#2c3238"/>
+  <rect x="224" y="219" width="134.6" height="14" rx="7" fill="#8a6a2a"/>
+  <text x="416" y="231" font-family="Menlo, Consolas, monospace" font-size="12" fill="#95a0aa">74.8%</text>
+  <text x="96" y="260" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#d7dbe0">Captions</text>
+  <rect x="224" y="249" width="180" height="14" rx="7" fill="#2c3238"/>
+  <rect x="224" y="249" width="133.6" height="14" rx="7" fill="#8a6a2a"/>
+  <text x="416" y="261" font-family="Menlo, Consolas, monospace" font-size="12" fill="#95a0aa">74.2%</text>
+  <text x="96" y="290" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#d7dbe0">Labels + captions</text>
+  <rect x="224" y="279" width="180" height="14" rx="7" fill="#2c3238"/>
+  <rect x="224" y="279" width="137.9" height="14" rx="7" fill="#f5b83d"/>
+  <text x="416" y="291" font-family="Menlo, Consolas, monospace" font-size="12" fill="#95a0aa">76.6%</text>
+  <rect x="96" y="318" width="368" height="1" rx="0" fill="#2c3238"/>
+  <text x="96" y="346" font-family="Menlo, Consolas, monospace" font-size="12" fill="#7d8791">engagement = 0.4 × likes + 0.6 × comments</text>
+  <rect x="500" y="196" width="204" height="182" rx="10" fill="#20252a"/>
+  <text x="518" y="222" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#95a0aa">LDA topics</text>
+  <rect x="518" y="236" width="168" height="30" rx="8" fill="#1f3a2a"/>
+  <text x="532" y="256" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#8fd19e" font-weight="700">▲ Wildlife</text>
+  <text x="672" y="256" font-family="Menlo, Consolas, monospace" font-size="11" fill="#8fd19e" text-anchor="end">top</text>
+  <rect x="518" y="274" width="168" height="30" rx="8" fill="#2b2f35"/>
+  <text x="532" y="294" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#d7dbe0">Aerial landscape</text>
+  <rect x="518" y="312" width="168" height="30" rx="8" fill="#2b2f35"/>
+  <text x="532" y="332" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#d7dbe0">Water</text>
+  <rect x="518" y="350" width="168" height="22" rx="8" fill="#3a2320"/>
+  <text x="532" y="366" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#f0a08f" font-weight="700">▼ People (mono)</text>
+</svg>

@@ -1,11 +1,155 @@
 ---
 layout: default
 ---
-{% include navheader.html %}
+{%- assign t = site.data.sitetext -%}
+{%- assign all_projects = site.projects | sort: "order" -%}
+{%- assign featured = all_projects | where: "featured", true -%}
+{%- assign earlier = all_projects | where: "featured", false -%}
 
-{% include services.html %}
-{% include portfolio_grid.html %}
-{% include timeline.html %}
-{% include team.html %}
-{% include clients.html %}
-{% include contact.html %}
+<!-- Hero -->
+<section class="hero">
+  <div class="container hero__inner">
+    <div class="hero__text">
+      <p class="eyebrow eyebrow--accent">{{ t.hero.eyebrow }}</p>
+      <h1 class="hero__name">{{ t.hero.name }}</h1>
+      <p class="hero__pitch">{{ t.hero.pitch }}</p>
+      <div class="actions">
+        <a class="btn btn--primary" href="#{{ t.projects.section }}">View projects <i class="fas fa-arrow-down" aria-hidden="true"></i></a>
+        <a class="btn btn--ghost" href="https://github.com/abinavrameshs" rel="noopener"><i class="fab fa-github" aria-hidden="true"></i> GitHub</a>
+        <a class="btn btn--ghost" href="{{ t.contact.linkedin }}" rel="noopener"><i class="fab fa-linkedin-in" aria-hidden="true"></i> LinkedIn</a>
+      </div>
+    </div>
+    <div class="hero__portrait">
+      <img src="{{ t.hero.headshot | relative_url }}" alt="Portrait of {{ site.author }}" width="560" height="560">
+    </div>
+  </div>
+  <div class="container">
+    <dl class="metrics">
+      {%- for m in t.hero.metrics %}
+      <div class="metric">
+        <dt class="metric__value">{{ m.value }}</dt>
+        <dd class="metric__label">{{ m.label }}</dd>
+      </div>
+      {%- endfor %}
+    </dl>
+  </div>
+</section>
+
+<!-- Projects -->
+<section class="section" id="{{ t.projects.section }}">
+  <div class="container">
+    <header class="section__head">
+      <p class="eyebrow">{{ t.projects.title }}</p>
+      <h2>{{ t.projects.featured_title }}</h2>
+      <p class="section__intro">{{ t.projects.featured_text }}</p>
+    </header>
+    <div class="card-grid">
+      {%- for p in featured %}
+        {%- if forloop.first %}{% include project-card.html project=p lead=true %}{% else %}{% include project-card.html project=p %}{% endif %}
+      {%- endfor %}
+    </div>
+
+    <header class="section__head section__head--sub">
+      <h2>{{ t.projects.earlier_title }}</h2>
+      <p class="section__intro">{{ t.projects.earlier_text }}</p>
+    </header>
+    <div class="mini-grid">
+      {%- for p in earlier %}{% include project-row.html project=p %}{% endfor %}
+    </div>
+  </div>
+</section>
+
+<!-- Experience -->
+<section class="section section--alt" id="{{ t.experience.section }}">
+  <div class="container">
+    <header class="section__head">
+      <p class="eyebrow">About</p>
+      <h2>{{ t.experience.title }}</h2>
+      <p class="section__intro">{{ t.experience.text }}</p>
+    </header>
+    <ol class="timeline">
+      {%- for e in t.experience.events %}
+      <li class="timeline__item">
+        <p class="timeline__date">{{ e.year }}</p>
+        <div class="timeline__marker" aria-hidden="true"></div>
+        <div class="timeline__body">
+          <div class="timeline__head">
+            <img class="logo-tile" src="{{ e.image | relative_url }}" alt="{{ e.alt }}" width="48" height="48" loading="lazy">
+            <div>
+              <h3>{{ e.title }}</h3>
+              <p class="timeline__role">{{ e.role }}</p>
+            </div>
+          </div>
+          {%- if e.desc != "" %}
+          <div class="timeline__desc">{{ e.desc | markdownify }}</div>
+          {%- endif %}
+        </div>
+      </li>
+      {%- endfor %}
+    </ol>
+  </div>
+</section>
+
+<!-- Skills -->
+<section class="section" id="{{ t.skills.section }}">
+  <div class="container">
+    <header class="section__head">
+      <p class="eyebrow">Toolbox</p>
+      <h2>{{ t.skills.title }}</h2>
+    </header>
+    <div class="skill-grid">
+      {%- for g in t.skills.groups %}
+      <div class="skill-group">
+        <h3>{{ g.title }}</h3>
+        <ul class="tags">
+          {%- for s in g.items %}<li>{{ s }}</li>{% endfor -%}
+        </ul>
+      </div>
+      {%- endfor %}
+    </div>
+  </div>
+</section>
+
+<!-- Certifications -->
+<section class="section section--alt" id="{{ t.certifications.section }}">
+  <div class="container">
+    <header class="section__head">
+      <p class="eyebrow">Recognition</p>
+      <h2>{{ t.certifications.title }}</h2>
+    </header>
+    <div class="badge-grid">
+      {%- for b in t.certifications.badges %}
+      <a class="badge" href="{{ b.url }}" rel="noopener">
+        <img class="logo-tile logo-tile--lg" src="{{ b.image | relative_url }}" alt="" width="72" height="72" loading="lazy">
+        <span class="badge__text">
+          <span class="badge__name">{{ b.name }}</span>
+          <span class="badge__role">{{ b.role }}</span>
+        </span>
+        <i class="fas fa-arrow-right badge__arrow" aria-hidden="true"></i>
+      </a>
+      {%- endfor %}
+    </div>
+    <h3 class="subhead">{{ t.certifications.additional_title }}</h3>
+    <ul class="course-list">
+      {%- for c in t.certifications.additional %}
+      <li><a href="{{ c.url }}" rel="noopener">{{ c.name }}</a><span>{{ c.issuer }}</span></li>
+      {%- endfor %}
+    </ul>
+  </div>
+</section>
+
+<!-- Contact -->
+<section class="contact" id="{{ t.contact.section }}">
+  <div class="container contact__inner">
+    <div>
+      <p class="eyebrow eyebrow--accent">Contact</p>
+      <h2>{{ t.contact.title }}</h2>
+      <p class="contact__text">{{ t.contact.text }}</p>
+    </div>
+    <div class="actions">
+      <a class="btn btn--primary" href="mailto:{{ site.email }}"><i class="fas fa-envelope" aria-hidden="true"></i> {{ site.email }}</a>
+      <a class="btn btn--ghost" href="{{ t.contact.linkedin }}" rel="noopener"><i class="fab fa-linkedin-in" aria-hidden="true"></i> LinkedIn</a>
+      <a class="btn btn--ghost" href="{{ t.contact.booking }}" rel="noopener"><i class="far fa-calendar-alt" aria-hidden="true"></i> Book 15 minutes</a>
+    </div>
+  </div>
+</section>

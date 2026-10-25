@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <defs>
+    <linearGradient id="sftp-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1a1e22"/>
+      <stop offset="1" stop-color="#23282d"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#sftp-bg)"/>
+  <rect x="60" y="60" width="680" height="380" rx="14" fill="#15181b" stroke="#33393f" stroke-width="1.5"/>
+  <rect x="60" y="60" width="680" height="42" rx="14" fill="#20252a"/>
+  <rect x="60" y="88" width="680" height="14" fill="#20252a"/>
+  <circle cx="86" cy="81" r="6" fill="#fc6058"/>
+  <circle cx="106" cy="81" r="6" fill="#fec02f"/>
+  <circle cx="126" cy="81" r="6" fill="#28c840"/>
+  <rect x="150" y="70" width="320" height="22" rx="11" fill="#2c3238"/>
+  <text x="168" y="86" font-family="Menlo, Consolas, monospace" font-size="13" fill="#7d8791">automation_script.py</text>
+  <text x="96" y="146" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#ffffff" font-weight="700">Daily extract → SFTP</text>
+  <text x="96" y="172" font-family="Menlo, Consolas, monospace" font-size="13" fill="#95a0aa">scheduled, hands-off delivery</text>
+  <rect x="96" y="206" width="168" height="76" rx="10" fill="#20252a" stroke="#33393f" stroke-width="1.5"/>
+  <text x="180.0" y="238" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#ffffff" font-weight="700" text-anchor="middle">Impala</text>
+  <text x="180.0" y="260" font-family="Menlo, Consolas, monospace" font-size="11" fill="#95a0aa" text-anchor="middle">pyodbc · SSL</text>
+  <path d="M264 244 H300" stroke="#5a6470" stroke-width="1.5"/><path d="M294 238 L300 244 L294 250" fill="none" stroke="#5a6470" stroke-width="1.5"/>
+  <rect x="300" y="206" width="200" height="76" rx="10" fill="#2b2618" stroke="#f5b83d" stroke-width="1.5"/>
+  <text x="400.0" y="238" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#f5b83d" font-weight="700" text-anchor="middle">CSV</text>
+  <text x="400.0" y="260" font-family="Menlo, Consolas, monospace" font-size="11" fill="#95a0aa" text-anchor="middle">changes_YYYYMMDD.csv</text>
+  <path d="M500 244 H536" stroke="#5a6470" stroke-width="1.5"/><path d="M530 238 L536 244 L530 250" fill="none" stroke="#5a6470" stroke-width="1.5"/>
+  <rect x="536" y="206" width="168" height="76" rx="10" fill="#20252a" stroke="#33393f" stroke-width="1.5"/>
+  <text x="620.0" y="238" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#ffffff" font-weight="700" text-anchor="middle">SFTP</text>
+  <text x="620.0" y="260" font-family="Menlo, Consolas, monospace" font-size="11" fill="#95a0aa" text-anchor="middle">pysftp · /export/home</text>
+  <rect x="96" y="314" width="608" height="1" rx="0" fill="#2c3238"/>
+  <circle cx="114" cy="352" r="14" fill="none" stroke="#f5b83d" stroke-width="2"/><path d="M114 344 V352 L120 356" fill="none" stroke="#f5b83d" stroke-width="2"/>
+  <text x="140" y="348" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#d7dbe0" font-weight="700">Windows Task Scheduler</text>
+  <text x="140" y="366" font-family="Menlo, Consolas, monospace" font-size="12" fill="#95a0aa">runs schedule_python_script.bat once a day</text>
+</svg>

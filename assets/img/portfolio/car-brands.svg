@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <defs>
+    <linearGradient id="car-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1a1e22"/>
+      <stop offset="1" stop-color="#23282d"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#car-bg)"/>
+  <rect x="60" y="60" width="680" height="380" rx="14" fill="#15181b" stroke="#33393f" stroke-width="1.5"/>
+  <rect x="60" y="60" width="680" height="42" rx="14" fill="#20252a"/>
+  <rect x="60" y="88" width="680" height="14" fill="#20252a"/>
+  <circle cx="86" cy="81" r="6" fill="#fc6058"/>
+  <circle cx="106" cy="81" r="6" fill="#fec02f"/>
+  <circle cx="126" cy="81" r="6" fill="#28c840"/>
+  <rect x="150" y="70" width="320" height="22" rx="11" fill="#2c3238"/>
+  <text x="168" y="86" font-family="Menlo, Consolas, monospace" font-size="13" fill="#7d8791">lift · MDS · brand map</text>
+  <text x="96" y="146" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#ffffff" font-weight="700">Edmunds forum · midsize sedans</text>
+  <text x="96" y="172" font-family="Menlo, Consolas, monospace" font-size="13" fill="#95a0aa">brand mentions in scraped posts</text>
+  <text x="96" y="206" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#d7dbe0">Honda</text>
+  <rect x="180" y="195" width="240" height="14" rx="7" fill="#2c3238"/>
+  <rect x="180" y="195" width="240.0" height="14" rx="7" fill="#f5b83d"/>
+  <text x="432" y="207" font-family="Menlo, Consolas, monospace" font-size="12" fill="#95a0aa">2,203</text>
+  <text x="96" y="238" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#d7dbe0">Ford</text>
+  <rect x="180" y="227" width="240" height="14" rx="7" fill="#2c3238"/>
+  <rect x="180" y="227" width="159.3" height="14" rx="7" fill="#f5b83d"/>
+  <text x="432" y="239" font-family="Menlo, Consolas, monospace" font-size="12" fill="#95a0aa">1,462</text>
+  <text x="96" y="270" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#d7dbe0">Toyota</text>
+  <rect x="180" y="259" width="240" height="14" rx="7" fill="#2c3238"/>
+  <rect x="180" y="259" width="111.1" height="14" rx="7" fill="#f5b83d"/>
+  <text x="432" y="271" font-family="Menlo, Consolas, monospace" font-size="12" fill="#95a0aa">1,020</text>
+  <text x="96" y="302" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#d7dbe0">Nissan</text>
+  <rect x="180" y="291" width="240" height="14" rx="7" fill="#2c3238"/>
+  <rect x="180" y="291" width="82.9" height="14" rx="7" fill="#f5b83d"/>
+  <text x="432" y="303" font-family="Menlo, Consolas, monospace" font-size="12" fill="#95a0aa">761</text>
+  <text x="96" y="334" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#d7dbe0">Hyundai</text>
+  <rect x="180" y="323" width="240" height="14" rx="7" fill="#2c3238"/>
+  <rect x="180" y="323" width="78.0" height="14" rx="7" fill="#f5b83d"/>
+  <text x="432" y="335" font-family="Menlo, Consolas, monospace" font-size="12" fill="#95a0aa">716</text>
+  <text x="96" y="366" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#d7dbe0">Mazda</text>
+  <rect x="180" y="355" width="240" height="14" rx="7" fill="#2c3238"/>
+  <rect x="180" y="355" width="69.9" height="14" rx="7" fill="#f5b83d"/>
+  <text x="432" y="367" font-family="Menlo, Consolas, monospace" font-size="12" fill="#95a0aa">642</text>
+  <rect x="520" y="192" width="184" height="186" rx="10" fill="#20252a"/>
+  <text x="538" y="220" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#95a0aa">Most aspirational</text>
+  <text x="538" y="262" font-family="Helvetica, Arial, sans-serif" font-size="30" fill="#f5b83d" font-weight="700">Audi</text>
+  <text x="538" y="288" font-family="Menlo, Consolas, monospace" font-size="13" fill="#d7dbe0">lift 2.66</text>
+  <rect x="538" y="306" width="148" height="1" rx="0" fill="#2c3238"/>
+  <text x="538" y="332" font-family="Menlo, Consolas, monospace" font-size="12" fill="#95a0aa">Mercedes   2.01</text>
+  <text x="538" y="354" font-family="Menlo, Consolas, monospace" font-size="12" fill="#95a0aa">Volkswagen 1.95</text>
+</svg>

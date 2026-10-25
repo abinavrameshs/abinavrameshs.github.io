@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <defs>
+    <linearGradient id="nut-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1a1e22"/>
+      <stop offset="1" stop-color="#23282d"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#nut-bg)"/>
+  <rect x="60" y="60" width="680" height="380" rx="14" fill="#15181b" stroke="#33393f" stroke-width="1.5"/>
+  <rect x="60" y="60" width="680" height="42" rx="14" fill="#20252a"/>
+  <rect x="60" y="88" width="680" height="14" fill="#20252a"/>
+  <circle cx="86" cy="81" r="6" fill="#fc6058"/>
+  <circle cx="106" cy="81" r="6" fill="#fec02f"/>
+  <circle cx="126" cy="81" r="6" fill="#28c840"/>
+  <rect x="150" y="70" width="300" height="22" rx="11" fill="#2c3238"/>
+  <text x="168" y="86" font-family="Menlo, Consolas, monospace" font-size="13" fill="#7d8791">app.local/nutritionist-llm</text>
+
+  <!-- meal photo -->
+  <rect x="96" y="128" width="260" height="280" rx="10" fill="#20252a"/>
+  <circle cx="226" cy="258" r="96" fill="#e9e6df"/>
+  <circle cx="226" cy="258" r="76" fill="#f6f4ef"/>
+  <ellipse cx="196" cy="232" rx="34" ry="24" fill="#c98a4b"/>
+  <circle cx="258" cy="236" r="22" fill="#6aa84f"/>
+  <circle cx="246" cy="290" r="18" fill="#e06c4f"/>
+  <ellipse cx="200" cy="288" rx="22" ry="14" fill="#f2d16b"/>
+  <g fill="none" stroke="#f5b83d" stroke-width="2">
+    <rect x="156" y="202" width="80" height="58" rx="4"/>
+    <rect x="230" y="208" width="56" height="56" rx="4"/>
+  </g>
+  <text x="226" y="386" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#7d8791" text-anchor="middle">meal.jpg · 4 items found</text>
+
+  <!-- analysis -->
+  <text x="384" y="150" font-family="Helvetica, Arial, sans-serif" font-size="20" font-weight="700" fill="#ffffff">Meal analysis</text>
+  <text x="384" y="178" font-family="Menlo, Consolas, monospace" font-size="13" fill="#95a0aa">640 kcal total</text>
+  <g font-family="Menlo, Consolas, monospace" font-size="12" fill="#d7dbe0">
+    <text x="384" y="214">Protein</text>
+    <rect x="474" y="204" width="230" height="10" rx="5" fill="#2c3238"/>
+    <rect x="474" y="204" width="120" height="10" rx="5" fill="#f5b83d"/>
+    <text x="384" y="244">Carbs</text>
+    <rect x="474" y="234" width="230" height="10" rx="5" fill="#2c3238"/>
+    <rect x="474" y="234" width="160" height="10" rx="5" fill="#f5b83d"/>
+    <text x="384" y="274">Fat</text>
+    <rect x="474" y="264" width="230" height="10" rx="5" fill="#2c3238"/>
+    <rect x="474" y="264" width="84" height="10" rx="5" fill="#f5b83d"/>
+  </g>
+  <rect x="384" y="300" width="320" height="1" fill="#2c3238"/>
+  <text x="384" y="340" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#95a0aa">Health score</text>
+  <text x="384" y="384" font-family="Helvetica, Arial, sans-serif" font-size="40" font-weight="700" fill="#f5b83d">7<tspan font-size="20" fill="#7d8791">/10</tspan></text>
+  <rect x="484" y="352" width="220" height="40" rx="8" fill="#20252a"/>
+  <text x="498" y="377" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#d7dbe0">Swap fries for a side salad</text>
+</svg>

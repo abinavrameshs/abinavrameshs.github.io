@@ -20,19 +20,19 @@
   <!-- app content -->
   <text x="96" y="146" font-family="Helvetica, Arial, sans-serif" font-size="20" font-weight="700" fill="#ffffff">Talk with your tables</text>
 
-  <rect x="96" y="164" width="560" height="40" rx="8" fill="#20252a" stroke="#fed136" stroke-width="1.5"/>
+  <rect x="96" y="164" width="540" height="40" rx="8" fill="#20252a" stroke="#f5b83d" stroke-width="1.5"/>
   <text x="112" y="189" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#d7dbe0">Show me last quarter's revenue by region</text>
-  <rect x="668" y="164" width="72" height="40" rx="8" fill="#fed136"/>
-  <text x="704" y="189" font-family="Helvetica, Arial, sans-serif" font-size="13" font-weight="700" fill="#212529" text-anchor="middle">Ask</text>
+  <rect x="648" y="164" width="72" height="40" rx="8" fill="#f5b83d"/>
+  <text x="684" y="189" font-family="Helvetica, Arial, sans-serif" font-size="13" font-weight="700" fill="#212529" text-anchor="middle">Ask</text>
 
-  <rect x="96" y="224" width="644" height="130" rx="10" fill="#101315"/>
-  <text x="116" y="252" font-family="Menlo, Consolas, monospace" font-size="13" fill="#fed136">SELECT</text>
+  <rect x="96" y="224" width="608" height="130" rx="10" fill="#101315"/>
+  <text x="116" y="252" font-family="Menlo, Consolas, monospace" font-size="13" fill="#f5b83d">SELECT</text>
   <text x="170" y="252" font-family="Menlo, Consolas, monospace" font-size="13" fill="#d7dbe0">region, SUM(revenue) AS total_revenue</text>
-  <text x="116" y="274" font-family="Menlo, Consolas, monospace" font-size="13" fill="#fed136">FROM</text>
+  <text x="116" y="274" font-family="Menlo, Consolas, monospace" font-size="13" fill="#f5b83d">FROM</text>
   <text x="155" y="274" font-family="Menlo, Consolas, monospace" font-size="13" fill="#d7dbe0">sales</text>
-  <text x="116" y="296" font-family="Menlo, Consolas, monospace" font-size="13" fill="#fed136">WHERE</text>
+  <text x="116" y="296" font-family="Menlo, Consolas, monospace" font-size="13" fill="#f5b83d">WHERE</text>
   <text x="168" y="296" font-family="Menlo, Consolas, monospace" font-size="13" fill="#d7dbe0">quarter = 'Q4-2025'</text>
-  <text x="116" y="318" font-family="Menlo, Consolas, monospace" font-size="13" fill="#fed136">GROUP BY</text>
+  <text x="116" y="318" font-family="Menlo, Consolas, monospace" font-size="13" fill="#f5b83d">GROUP BY</text>
   <text x="196" y="318" font-family="Menlo, Consolas, monospace" font-size="13" fill="#d7dbe0">region;</text>
   <rect x="116" y="332" width="596" height="1" fill="#2c3238"/>
   <circle cx="120" cy="342" r="3" fill="#28c840"/>

@@ -1,15 +1,11 @@
 nav:
-  - title: "Skills"
-    section: services
-
   - title: "Projects"
-    section: portfolio
-    
-  - title: "About"
-    section: timeline
-
-  - title: "Extracurriculars"
-    section: team
-
+    section: projects
+  - title: "Experience"
+    section: experience
+  - title: "Skills"
+    section: skills
+  - title: "Certifications"
+    section: certifications
   - title: "Contact"
     section: contact

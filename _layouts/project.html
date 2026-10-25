@@ -1,0 +1,74 @@
+---
+layout: default
+---
+{%- assign all_projects = site.projects | sort: "order" -%}
+{%- for p in all_projects -%}
+  {%- if p.url == page.url -%}
+    {%- assign idx = forloop.index0 -%}
+  {%- endif -%}
+{%- endfor -%}
+{%- assign prev_idx = idx | minus: 1 -%}
+{%- assign next_idx = idx | plus: 1 -%}
+{%- if prev_idx >= 0 %}{% assign prev_p = all_projects[prev_idx] %}{% endif -%}
+{%- assign next_p = all_projects[next_idx] -%}
+
+<article class="project">
+  <div class="container">
+    <a class="back-link" href="{{ '/' | relative_url }}#projects"><i class="fas fa-arrow-left" aria-hidden="true"></i> All projects</a>
+
+    <header class="project__header">
+      <p class="eyebrow eyebrow--accent">{% if page.featured %}Gen AI project{% else %}Earlier work{% endif %} · {{ page.category }}</p>
+      <h1>{{ page.title }}</h1>
+      <p class="project__lead">{{ page.summary }}</p>
+      {%- if page.github or page.demo %}
+      <div class="actions">
+        {%- if page.github %}<a class="btn btn--primary" href="{{ page.github }}" rel="noopener"><i class="fab fa-github" aria-hidden="true"></i> View on GitHub</a>{% endif %}
+        {%- if page.demo %}<a class="btn btn--ghost" href="{{ page.demo }}" rel="noopener"><i class="fas fa-external-link-alt" aria-hidden="true"></i> Live demo</a>{% endif %}
+      </div>
+      {%- endif %}
+    </header>
+
+    <figure class="project__figure">
+      <img src="{{ page.image | relative_url }}" alt="{{ page.alt }}" width="800" height="500">
+    </figure>
+
+    <div class="project__layout">
+      <div class="prose">
+        {{ content }}
+      </div>
+      <aside class="project__aside" aria-label="Project details">
+        <div class="aside-block">
+          <h2 class="aside-block__title">Stack</h2>
+          <ul class="tags">
+            {%- for t in page.tags %}<li>{{ t }}</li>{% endfor -%}
+          </ul>
+        </div>
+        <div class="aside-block">
+          <h2 class="aside-block__title">Category</h2>
+          <p>{{ page.category }}</p>
+        </div>
+        {%- if page.github %}
+        <div class="aside-block">
+          <h2 class="aside-block__title">Source</h2>
+          <p><a href="{{ page.github }}" rel="noopener"><i class="fab fa-github" aria-hidden="true"></i> View repository</a></p>
+        </div>
+        {%- endif %}
+      </aside>
+    </div>
+
+    <nav class="pager" aria-label="More projects">
+      {%- if prev_p %}
+      <a class="pager__link" href="{{ prev_p.url | relative_url }}">
+        <span class="pager__dir"><i class="fas fa-arrow-left" aria-hidden="true"></i> Previous</span>
+        <span class="pager__title">{{ prev_p.title }}</span>
+      </a>
+      {%- else %}<span></span>{% endif %}
+      {%- if next_p %}
+      <a class="pager__link pager__link--next" href="{{ next_p.url | relative_url }}">
+        <span class="pager__dir">Next <i class="fas fa-arrow-right" aria-hidden="true"></i></span>
+        <span class="pager__title">{{ next_p.title }}</span>
+      </a>
+      {%- endif %}
+    </nav>
+  </div>
+</article>

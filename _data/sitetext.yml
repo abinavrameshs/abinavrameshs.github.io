@@ -1,188 +1,156 @@
-header:
-    title: Welcome to Gen AI & Data Portfolio of Abinav!!
-    text: It's Nice To Meet You
-    button: Click here to know about my projects
-    buttonlink: "#portfolio"
+hero:
+  eyebrow: "Senior AI Engineer · Chubb"
+  name: "Abinav Ramesh"
+  pitch: "I design and ship production Gen AI systems: RAG pipelines, enterprise LLM assistants, agentic workflows and AI governance platforms, built on 7+ years of machine learning and analytics."
+  headshot: assets/img/headshot.jpg
+  metrics:
+    - value: "$5MM"
+      label: "value delivered by an Agentic Enterprise Assistant at TD"
+    - value: "$10M CAD"
+      label: "saved each year by liquidity forecasting models"
 
-services:
-    title: "Skills"
-    text: "Technical Skills"
-    section: services
-    list:
-      - title: "Generative AI"
-        icon: fas fa-brain #find more at https://fontawesome.com/icons
-        desc: "LLMs, Prompt Engineering, RAG, Azure OpenAI, Azure AI Search, Promptflow, LangChain, LlamaIndex, Agentic Frameworks (CrewAI, Agno, LangGraph), Vector DBs (Pinecone, ChromaDB, LanceDB)"
-      - title: "Cloud Technologies"
-        icon: fas fa-cloud
-        desc: "Azure Databricks, Azure ML Studio, Azure AI Studio, Synapse"
-      - title: "Deep Learning / NLP"
-        icon: fas fa-network-wired
-        desc: "TensorFlow, PyTorch, Transformers, Hugging Face, OpenCV"
-      - title: "Big Data / DevOps"
-        icon: fas fa-server
-        desc: "Impala, Spark, Hadoop, Hive (HQL), Google BigQuery, Maven, Oozie, Docker, Kubernetes"
-      - title: "Data Science / Visualization"
-        icon: fas fa-chart-bar
-        desc: "Python, R, SAS, MATLAB, Tableau, Power BI, MicroStrategy, SAP Business Objects"
-      - title: "Databases"
-        icon: fas fa-database
-        desc: "SQL Server, MySQL, Teradata, SAP HANA, Neo4j"
-      #- title: "[Markdown](https://en.wikipedia.org/wiki/Markdown)"
-      #  icon: fab fa-markdown
+projects:
+  section: projects
+  title: "Projects"
+  featured_title: "Gen AI & agents"
+  featured_text: "Recent work on LLM applications, multi-modal models and agent systems."
+  earlier_title: "Earlier work"
+  earlier_text: "Machine learning, NLP and data engineering projects from before the LLM era."
 
-portfolio:
-    title: "Projects"
-    section: portfolio
-    closebutton: "Close Project"
-    
+experience:
+  section: experience
+  title: "Experience"
+  text: "I build Gen AI systems that hold up in production: agents, agentic workflows and the RAG pipelines underneath them. Seven years of machine learning and analytics taught me to judge every system by the business impact it delivers."
+  events:
+    - title: "Chubb"
+      role: "Senior AI Engineer"
+      year: "Nov 2025 – Present"
+      desc: "Building *AI Studio*, an enterprise platform for AI governance of MCP tools, agents and models - designing APIs and microservices, integrating Dify and Azure services for secure, governable GenAI use, and embedding governance guardrails (access, lineage, monitoring) into the agent/model lifecycle."
+      image: assets/img/timeline/chubb_200_200.png
+      alt: Chubb
+    - title: "TD Bank Group"
+      role: "Data Scientist → ML Engineer (Layer 6 AI) → Senior Applied ML Scientist"
+      year: "Aug 2021 – Dec 2025"
+      desc: "4.5 years in Personal Banking Data & Analytics. Delivered $5MM in value building an Agentic Enterprise Assistant on Azure OpenAI and Azure AI Search, grounded by a RAG pipeline (query rewriting, ranking, insufficiency detection). Built a standardized RAG framework that cut application build time from 12 to 7 weeks, and time-series liquidity forecasting models saving $10M CAD annually."
+      image: assets/img/timeline/TD_200_200.png
+      alt: TD Bank Group
+    - title: "The Bigger Data"
+      role: "Data Science Project Manager"
+      year: "Oct 2020 – Sep 2022"
+      desc: "Led a team of 5 at [The Bigger Data](https://www.linkedin.com/company/thebiggerdata/) to deliver analytics solutions for non-profits - improving operational efficiency by 30%, data accuracy by 90%, and building governance frameworks that avoided $200K in potential regulatory fines. Worked with AIESEC to improve their business model through analytics."
+      image: assets/img/timeline/TBD_200_200.jpg
+      alt: The Bigger Data
+    - title: "Bell Mobility"
+      role: "Data Science Developer"
+      year: "Jul 2019 – Aug 2021"
+      desc: "Built critical AI/ML products: a modem self-healing system that saved $1.1M CAD by proactively detecting and fixing degraded customer experience, proactive network outage prediction, automated reboot workflows resolving 40% of modem issues, and MicroStrategy dashboards driving $500K in annual savings."
+      image: assets/img/timeline/bell_200_200.jpg
+      alt: Bell Mobility
+    - title: "McGill University"
+      role: "Master of Management in Analytics (MMA)"
+      year: "Aug 2018 – Jul 2019"
+      desc: "GPA 3.92, Dean's Honour List, Best Capstone Project and Best Outgoing Student Award. Capstone: Data Engineer/Modeller intern at McKesson Canada, building a Supplier Performance Management Program that saved up to $600K."
+      image: assets/img/timeline/mcgill_200_200.jpg
+      alt: McGill University
+    - title: "Deloitte Consulting"
+      role: "Business Technology Analyst"
+      year: "Aug 2016 – Jul 2018"
+      desc: "Worked across the full application lifecycle for US clients: converted 50+ OBIEE reports to SAP Business Objects on a SAP HANA backend, resolved 500+ production tickets as a Production Support Engineer with 100% SLA compliance, and served as a System Integration Tester for a major healthcare insurance provider. Received the Applause Award for outstanding performance."
+      image: assets/img/timeline/deloitte_200_200.jpg
+      alt: Deloitte
+    - title: "National Institute of Technology Karnataka"
+      role: "B.Tech, Electronics and Communication Engineering"
+      year: "Jul 2012 – Jul 2016"
+      desc: ""
+      image: assets/img/timeline/nitk_200_200.jpg
+      alt: NITK
 
-timeline:
-    title: "About"
-    image: assets/img/timeline/chubb_200_200.png
-    text: "Hi, I am an AI Engineer and Applied Machine Learning Scientist with 7+ years of experience designing and shipping production Gen AI systems - RAG pipelines, enterprise LLM assistants, agentic workflows and AI governance platforms - built on a solid foundation of traditional Machine Learning and Analytics. I consider myself a problem solver, passionate about turning cutting-edge AI into measurable business impact. I am also a fun and enthusiastic person who is willing to explore and constantly learn. I am open to any kind of Gen AI, Machine Learning or Data-related opportunity, where I can utilize my expertise to help the world become a better place. Please feel free to keep in touch with me at <a href=\"mailto:abinavrameshs@gmail.com?subject=Connection request&body=Hello Abinav,%0DI hope you are doing good. Nice to e-meet you. Glad we can make a connection! %0DRegards\">abinavrameshs@gmail.com</a>"
-    section: timeline
-    # left is the default
-    #start_align: "left"
-    events:
-      - title: "Chubb"
-        year: "NOV 2025 - PRESENT"
-        desc: "Senior AI Engineer building *AI Studio*, an enterprise platform for AI governance of MCP tools, agents and models - designing APIs and microservices, integrating Dify and Azure services for secure, governable GenAI use, and embedding governance guardrails (access, lineage, monitoring) into the agent/model lifecycle."
-        image: assets/img/timeline/chubb_200_200.png
-        alt: Chubb
-      - title: "TD Bank Group"
-        year: "AUG 2021 - DEC 2025"
-        desc: "4.5 years in Personal Banking Data & Analytics, progressing from Data Scientist to Machine Learning Engineer (Layer 6 AI) to Senior Applied Machine Learning Scientist. Delivered $5MM in value building a ChatGPT-like enterprise assistant on Azure OpenAI and Azure AI Search with a RAG pipeline (query rewriting, ranking, insufficiency detection). Built a standardized RAG framework that cut application build time from 12 to 7 weeks, and time-series liquidity forecasting models saving $10M CAD annually."
-        image: assets/img/timeline/TD_200_200.png
-        alt: TD Bank Group
-      - title: "The Bigger Data"
-        year: "OCT 2020 - SEP 2022"
-        desc: "Data Science Project Manager at [The Bigger Data](https://www.linkedin.com/company/thebiggerdata/), leading a team of 5 to deliver analytics solutions for non-profits - improving operational efficiency by 30%, data accuracy by 90%, and building governance frameworks that avoided $200K in potential regulatory fines. Worked with AIESEC to improve their business model through analytics."
-        image: assets/img/timeline/TBD_200_200.jpg
-        alt: The Bigger Data
-      - title: "Bell Mobility"
-        year: "JUL 2019 - AUG 2021"
-        desc: "Data Science Developer building critical AI/ML products: a modem self-healing system that saved $1.1M CAD by proactively detecting and fixing degraded customer experience, proactive network outage prediction, automated reboot workflows resolving 40% of modem issues, and MicroStrategy dashboards driving $500K in annual savings."
-        image: assets/img/timeline/bell_200_200.jpg
-        alt: Bell Mobility
-      - title: "McGill University"
-        year: "AUG 2018 - JUL 2019"
-        desc: "Masters of Management in Analytics (MMA) from McGill University (GPA 3.92, Dean's Honour List, Best Capstone Project, Best Outgoing Student Award). Capstone: Data Engineer/Modeller intern at McKesson Canada, building a Supplier Performance Management Program that saved up to $600K."
-        image: assets/img/timeline/mcgill_200_200.jpg
-        alt: Master's degree
-      - title: "Deloitte Consulting"
-        year: "AUG 2016 - JUL 2018"
-        desc: "Business Technology Analyst working across the full application lifecycle for US clients: converted 50+ OBIEE reports to SAP Business Objects on a SAP HANA backend, resolved 500+ production tickets as a Production Support Engineer with 100% SLA compliance, and served as a System Integration Tester for a major healthcare insurance provider. Received the Applause Award for outstanding performance."
-        image: assets/img/timeline/deloitte_200_200.jpg
-        alt: First place of work
-      - title: "National Institute of Technology Karnataka"
-        year: "JUL 2012 - JUL 2016"
-        desc: "Bachelors of Technology in Electronics and Communication Engineering"
-        image: assets/img/timeline/nitk_200_200.jpg
-        alt: Bachelors Degree
-    end: "Where it all began"
+skills:
+  section: skills
+  title: "Skills"
+  groups:
+    - title: "Generative AI"
+      items: ["LLMs", "Prompt Engineering", "RAG", "Azure OpenAI", "Azure AI Search", "Promptflow", "LangChain", "LlamaIndex", "CrewAI", "Agno", "LangGraph", "MCP", "Pinecone", "ChromaDB", "LanceDB"]
+    - title: "Deep Learning / NLP"
+      items: ["TensorFlow", "PyTorch", "Transformers", "Hugging Face", "OpenCV"]
+    - title: "Cloud"
+      items: ["Azure Databricks", "Azure ML Studio", "Azure AI Studio", "Synapse"]
+    - title: "Big Data / DevOps"
+      items: ["Spark", "Hadoop", "Hive (HQL)", "Impala", "Google BigQuery", "Oozie", "Maven", "Docker", "Kubernetes"]
+    - title: "Data Science / Visualization"
+      items: ["Python", "R", "SAS", "MATLAB", "Tableau", "Power BI", "MicroStrategy", "SAP Business Objects"]
+    - title: "Databases"
+      items: ["SQL Server", "PostgreSQL", "MySQL", "Teradata", "SAP HANA", "Neo4j"]
 
-about:
-    title: "About Us"
-    text: "our story"
-    section: about
-
-#clients:
-#    section: clients
-#    max-height: 100px
-#    horizontal-scrolling: "" #"yes/no"
-#    list:
-#      - title: "envato"
-#        url: https://github.com/raviriley/agency-jekyll-theme
-#        logo: assets/img/clients/envato.jpg
-#      - title: "designmodo"
-#        url: https://github.com/raviriley/agency-jekyll-theme
-#        logo: assets/img/clients/designmodo.jpg
-#      - title: "themeforest"
-#        url: https://github.com/raviriley/agency-jekyll-theme
-#        logo: assets/img/clients/themeforest.jpg
-#      - title: "Creative Market"
-#        url: https://github.com/raviriley/agency-jekyll-theme
-#        logo: assets/img/clients/creative-market.jpg
-    
-team:
-    title: "Certifications and Accomplishments"
-    #text: "Serving as a Project Manager(Data Science) in The Bigger Data enabling non-profit organizations to leverage the power of their data. Worked with International organization AIESEC to improve their business model through Analytics "
-    #subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, #quos non quis ad erspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
-    section: team
-    people:
-      - name: "Ericsson Hackathon Montreal"
-        role: "First place, Ericsson Data Science Hackathon"
-        image: assets/img/team/ericsson_hackathon_500_500.png
-        social:
-          - url: https://www.mcgill.ca/channels/channels/news/meet-analytics-dream-team-297550
-            icon: fas fa-external-link-alt
-      - name: "AWS Certified Cloud Practitioner"
-        role: "Amazon Web Services"
-        image: assets/img/team/AWS_CCP_500_500.png
-        social:
-          - url: https://www.youracclaim.com/badges/5a52e040-664e-4a5d-a994-1a4d53de4555?source=linked_in_profile
-            icon: fas fa-external-link-alt
-      - name: "Microsoft Azure Fundamentals"
-        role: "Microsoft"
-        image: assets/img/team/azure_fundamentals_500_500.png
-        social:
-          - url: https://www.credly.com/badges/2a75a5be-6a6b-48b0-a9b0-c0025ba20094
-            icon: fas fa-external-link-alt
-      - name: "McGill MMA Ambassador"
-        role: "Desautels Faculty of Management"
-        image: assets/img/team/mma_500_500.png
-        social:
-          - url: https://www.mcgill.ca/desautels/programs/mma/careers-industry-partners/industry-partners/mma-advisory-ambassadors
-            icon: fas fa-external-link-alt
-
-      #- name: "Diana Perterson"
-      #  role: "Lead Developer"
-      #  image: assets/img/team/500x500.jpg
-      #  social:
-      #    - url: https://twitter.com
-      #      icon: fab fa-twitter
-      #    - url: https://facebook.com
-      #      icon: fab fa-facebook-f
-      #    - url: https://linkedin.com
-      #      icon: fab fa-linkedin-in
-
-    additional_title: "Additional Certifications & Courses"
-    additional_certs:
-      - name: "Kubernetes for Beginners (Udemy)"
-        url: http://ude.my/UC-0b4dba02-a60a-42e2-8b11-4e73603f5958
-      - name: "SQL Server Machine Learning Services: Python (LinkedIn Learning)"
-        url: https://www.linkedin.com/learning/certificates/106c445498ae67f34275658ff739db9a50da097b8ff11d32656254bd4a94efd1
-      - name: "Big Data Modeling and Management Systems (Coursera)"
-        url: https://www.coursera.org/account/accomplishments/verify/EHTPLPDRS3BZ
-      - name: "Data Visualization and Communication with Tableau (Coursera)"
-        url: https://www.coursera.org/account/accomplishments/verify/7VPW3GETXTZZ
-      - name: "Managing Big Data with MySQL (Coursera)"
-        url: https://www.coursera.org/account/accomplishments/verify/NFPAGJV22S69
-      - name: "Business Metrics for Data-Driven Companies (Coursera)"
-        url: https://www.coursera.org/account/accomplishments/verify/UK5US9TZNV2W
-      - name: "Predictive Customer Analytics (Lynda.com)"
-        url: http://www.lynda.com/Python-tutorials/Predictive-Customer-Analytics/573615-2.html
-      - name: "Agile Development Practices (Lynda.com)"
-        url: http://www.lynda.com/Software-Development-tutorials/Agile-Development-Practices/624301-2.html
+certifications:
+  section: certifications
+  title: "Certifications"
+  badges:
+    - name: "Ericsson Data Science Hackathon"
+      role: "First place, Montreal"
+      image: assets/img/team/ericsson_hackathon_500_500.png
+      url: https://www.mcgill.ca/channels/channels/news/meet-analytics-dream-team-297550
+    - name: "AWS Certified Cloud Practitioner"
+      role: "Amazon Web Services"
+      image: assets/img/team/AWS_CCP_500_500.png
+      url: https://www.youracclaim.com/badges/5a52e040-664e-4a5d-a994-1a4d53de4555?source=linked_in_profile
+    - name: "Microsoft Azure Fundamentals"
+      role: "Microsoft"
+      image: assets/img/team/azure_fundamentals_500_500.png
+      url: https://www.credly.com/badges/2a75a5be-6a6b-48b0-a9b0-c0025ba20094
+    - name: "McGill MMA Ambassador"
+      role: "Desautels Faculty of Management"
+      image: assets/img/team/mma_500_500.png
+      url: https://www.mcgill.ca/desautels/programs/mma/careers-industry-partners/industry-partners/mma-advisory-ambassadors
+  additional_title: "Courses"
+  additional:
+    - name: "Kubernetes for Beginners"
+      issuer: "Udemy"
+      url: http://ude.my/UC-0b4dba02-a60a-42e2-8b11-4e73603f5958
+    - name: "SQL Server Machine Learning Services: Python"
+      issuer: "LinkedIn Learning"
+      url: https://www.linkedin.com/learning/certificates/106c445498ae67f34275658ff739db9a50da097b8ff11d32656254bd4a94efd1
+    - name: "Big Data Modeling and Management Systems"
+      issuer: "Coursera"
+      url: https://www.coursera.org/account/accomplishments/verify/EHTPLPDRS3BZ
+    - name: "Data Visualization and Communication with Tableau"
+      issuer: "Coursera"
+      url: https://www.coursera.org/account/accomplishments/verify/7VPW3GETXTZZ
+    - name: "Managing Big Data with MySQL"
+      issuer: "Coursera"
+      url: https://www.coursera.org/account/accomplishments/verify/NFPAGJV22S69
+    - name: "Business Metrics for Data-Driven Companies"
+      issuer: "Coursera"
+      url: https://www.coursera.org/account/accomplishments/verify/UK5US9TZNV2W
+    - name: "Predictive Customer Analytics"
+      issuer: "Lynda.com"
+      url: http://www.lynda.com/Python-tutorials/Predictive-Customer-Analytics/573615-2.html
+    - name: "Agile Development Practices"
+      issuer: "Lynda.com"
+      url: http://www.lynda.com/Software-Development-tutorials/Agile-Development-Practices/624301-2.html
 
 contact:
-    title: "Contact Me"
-    #text: "Thank you for visiting my website!<br> Please keep in touch by connecting with me on Linkedin/Facebook/Twitter/Instagram accounts below!"
-    section: contact
-    
+  section: contact
+  title: "Let's talk Gen AI"
+  text: "I'm open to Gen AI, machine learning and data roles and collaborations. The quickest way to reach me is email or LinkedIn, or you can book a 15-minute call."
+  linkedin: https://www.linkedin.com/in/abinav-ramesh-sundararaman/
+  booking: https://topmate.io/abinavrameshs/725737
+
 footer:
-    legal: "Privacy Policy"
-    social:
-      - url: https://twitter.com/Abinavramesh2
-        icon: "fab fa-twitter"  
-      - url: https://www.facebook.com/abinav.ramesh.5/
-        icon: "fab fa-facebook-f"
-      - url: https://www.linkedin.com/in/abinav-ramesh-sundararaman/
-        icon: "fab fa-linkedin-in"
-      - url: https://github.com/abinavrameshs
-        icon: "fab fa-github"
-      - url: https://www.instagram.com/abinavrameshs/
-        icon: "fab fa-instagram"
-
-
-# {{ site.data.sitetext.ex.ex | markdownify | default: example }}
+  legal: "Privacy Policy"
+  social:
+    - url: https://www.linkedin.com/in/abinav-ramesh-sundararaman/
+      icon: "fab fa-linkedin-in"
+      label: LinkedIn
+    - url: https://github.com/abinavrameshs
+      icon: "fab fa-github"
+      label: GitHub
+    - url: https://twitter.com/Abinavramesh2
+      icon: "fab fa-twitter"
+      label: Twitter
+    - url: https://www.facebook.com/abinav.ramesh.5/
+      icon: "fab fa-facebook-f"
+      label: Facebook
+    - url: https://www.instagram.com/abinavrameshs/
+      icon: "fab fa-instagram"
+      label: Instagram

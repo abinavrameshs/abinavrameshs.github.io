@@ -1,0 +1,15 @@
+{%- assign p = include.project -%}
+<article class="card{% if include.lead %} card--lead{% endif %}">
+  <div class="card__media">
+    <img src="{{ p.image | relative_url }}" alt="" loading="lazy" width="800" height="500">
+  </div>
+  <div class="card__body">
+    <p class="eyebrow">{{ p.category }}</p>
+    <h3 class="card__title"><a class="card__link" href="{{ p.url | relative_url }}">{{ p.title }}</a></h3>
+    <p class="card__summary">{{ p.summary }}</p>
+    <ul class="tags" aria-label="Tech stack">
+      {%- for t in p.tags limit: 4 %}<li>{{ t }}</li>{% endfor -%}
+      {%- if p.tags.size > 4 %}<li class="tags__more">+{{ p.tags.size | minus: 4 }}</li>{% endif -%}
+    </ul>
+  </div>
+</article>

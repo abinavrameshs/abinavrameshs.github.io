@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <defs>
+    <linearGradient id="hooks-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1a1e22"/>
+      <stop offset="1" stop-color="#23282d"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#hooks-bg)"/>
+  <rect x="60" y="60" width="680" height="380" rx="14" fill="#15181b" stroke="#33393f" stroke-width="1.5"/>
+  <rect x="60" y="60" width="680" height="42" rx="14" fill="#20252a"/>
+  <rect x="60" y="88" width="680" height="14" fill="#20252a"/>
+  <circle cx="86" cy="81" r="6" fill="#fc6058"/>
+  <circle cx="106" cy="81" r="6" fill="#fec02f"/>
+  <circle cx="126" cy="81" r="6" fill="#28c840"/>
+  <rect x="150" y="70" width="320" height="22" rx="11" fill="#2c3238"/>
+  <text x="168" y="86" font-family="Menlo, Consolas, monospace" font-size="13" fill="#7d8791">~/repo — zsh</text>
+  <text x="96" y="146" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#ffffff" font-weight="700">Client-side Git hooks</text>
+  <text x="96" y="186" font-family="Menlo, Consolas, monospace" font-size="13" fill="#d7dbe0">$ git commit -m "fixed a bug in the parser module and updated the unit tests"</text>
+  <text x="96" y="210" font-family="Menlo, Consolas, monospace" font-size="13" fill="#95a0aa">##### Running pre-commit hook ########</text>
+  <text x="96" y="234" font-family="Menlo, Consolas, monospace" font-size="13" fill="#95a0aa">Running BLACK formatter on all files before committing</text>
+  <text x="96" y="258" font-family="Menlo, Consolas, monospace" font-size="13" fill="#70d6c1">reformatted src/sample.py</text>
+  <text x="96" y="282" font-family="Menlo, Consolas, monospace" font-size="13" fill="#95a0aa">##### Running commit-msg hook ########</text>
+  <text x="96" y="306" font-family="Menlo, Consolas, monospace" font-size="13" fill="#e06c4f">✗ The commit failed because one or many of the commit</text>
+  <text x="96" y="330" font-family="Menlo, Consolas, monospace" font-size="13" fill="#e06c4f">  rules were not adhered to!</text>
+  <text x="96" y="354" font-family="Menlo, Consolas, monospace" font-size="13" fill="#d7dbe0">  1. Subject must be &lt;= 50 characters</text>
+  <text x="96" y="378" font-family="Menlo, Consolas, monospace" font-size="13" fill="#d7dbe0">  3. Subject should start with a capital letter</text>
+  <rect x="96" y="404" width="112" height="24" rx="12" fill="#2b2618" stroke="#f5b83d" stroke-width="1.5"/>
+  <text x="152.0" y="420" font-family="Menlo, Consolas, monospace" font-size="11" fill="#f5b83d" font-weight="700" text-anchor="middle">pre-commit</text>
+  <rect x="218" y="404" width="112" height="24" rx="12" fill="#2b2618" stroke="#f5b83d" stroke-width="1.5"/>
+  <text x="274.0" y="420" font-family="Menlo, Consolas, monospace" font-size="11" fill="#f5b83d" font-weight="700" text-anchor="middle">commit-msg</text>
+  <rect x="340" y="404" width="112" height="24" rx="12" fill="#2b2618" stroke="#f5b83d" stroke-width="1.5"/>
+  <text x="396.0" y="420" font-family="Menlo, Consolas, monospace" font-size="11" fill="#f5b83d" font-weight="700" text-anchor="middle">pre-rebase</text>
+</svg>

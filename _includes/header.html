@@ -1,0 +1,21 @@
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="container site-header__inner">
+    <a class="brand" href="{{ '/' | relative_url }}" aria-label="{{ site.title }}, home">Abinav<span class="brand__dot">.</span></a>
+
+    <nav class="site-nav" aria-label="Main">
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-links">
+        <i class="fas fa-bars" aria-hidden="true"></i><span class="sr-only">Menu</span>
+      </button>
+      <ul class="site-nav__links" id="nav-links">
+        {%- for link in site.data.navigation.nav %}
+        <li><a href="{{ '/' | relative_url }}#{{ link.section }}">{{ link.title }}</a></li>
+        {%- endfor %}
+      </ul>
+    </nav>
+
+    <button class="theme-toggle" type="button" aria-label="Switch to dark theme">
+      <i class="fas fa-moon" aria-hidden="true"></i>
+    </button>
+  </div>
+</header>
